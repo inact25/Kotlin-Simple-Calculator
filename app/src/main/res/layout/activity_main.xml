@@ -30,22 +30,13 @@
             <Button
                 android:id="@+id/btnClear"
                 style="@style/calcNumber"
-                android:text="CE" />
+                android:text="Del" />
+
 
             <Button
-                android:id="@+id/btnInverse"
-                style="@style/calcNumber"
-                android:text="-/+" />
-
-            <Button
-                android:id="@+id/btnPercent"
-                style="@style/calcNumber"
-                android:text="%" />
-
-            <Button
-                android:id="@+id/btnDivide"
+                android:id="@+id/btnResult"
                 style="@style/calcAction"
-                android:text="÷" />
+                android:text="=" />
 
 
         </LinearLayout>
@@ -57,24 +48,24 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/btnSeven"
+                android:id="@+id/btnOne"
                 style="@style/calcNumber"
-                android:text="7" />
+                android:text="1" />
 
             <Button
-                android:id="@+id/btnEight"
+                android:id="@+id/btnTwo"
                 style="@style/calcNumber"
-                android:text="8" />
+                android:text="2" />
 
             <Button
-                android:id="@+id/btnNine"
+                android:id="@+id/btnThree"
                 style="@style/calcNumber"
-                android:text="9" />
+                android:text="3" />
 
             <Button
-                android:id="@+id/btnMul"
+                android:id="@+id/btndDiv"
                 style="@style/calcAction"
-                android:text="*" />
+                android:text="/" />
         </LinearLayout>
 
         <LinearLayout
@@ -114,24 +105,24 @@
 
 
             <TextView
-                android:id="@+id/btnOne"
+                android:id="@+id/btnSeven"
                 style="@style/calcNumber"
-                android:text="1" />
+                android:text="7" />
 
             <Button
-                android:id="@+id/btnTwo"
+                android:id="@+id/btnEight"
                 style="@style/calcNumber"
-                android:text="2" />
+                android:text="8" />
 
             <Button
-                android:id="@+id/btnThree"
+                android:id="@+id/btnNone"
                 style="@style/calcNumber"
-                android:text="3" />
+                android:text="9" />
 
             <Button
-                android:id="@+id/btnPlus"
+                android:id="@+id/btnMult"
                 style="@style/calcAction"
-                android:text="+" />
+                android:text="X" />
 
         </LinearLayout>
 
@@ -152,14 +143,14 @@
                 android:text="0" />
 
             <Button
-                android:id="@+id/btnDel"
+                android:id="@+id/btnPercent"
                 style="@style/calcAction"
-                android:text="←" />
+                android:text="%" />
 
             <Button
-                android:id="@+id/btnEquals"
+                android:id="@+id/btnAdd"
                 style="@style/calcAction"
-                android:text="=" />
+                android:text="+" />
 
         </LinearLayout>
     </LinearLayout>
