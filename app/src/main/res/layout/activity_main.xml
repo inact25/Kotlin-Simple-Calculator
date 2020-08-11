@@ -29,23 +29,23 @@
 
             <Button
                 android:id="@+id/btnClear"
-                style="@style/calcAction"
+                style="@style/calcNumber"
                 android:text="CE" />
 
             <Button
                 android:id="@+id/btnInverse"
-                style="@style/calcAction"
+                style="@style/calcNumber"
                 android:text="-/+" />
 
             <Button
                 android:id="@+id/btnPercent"
-                style="@style/calcAction"
+                style="@style/calcNumber"
                 android:text="%" />
 
             <Button
                 android:id="@+id/btnDivide"
                 style="@style/calcAction"
-                android:text="/" />
+                android:text="÷" />
 
 
         </LinearLayout>
@@ -154,7 +154,7 @@
             <Button
                 android:id="@+id/btnDel"
                 style="@style/calcAction"
-                android:text="<-" />
+                android:text="←" />
 
             <Button
                 android:id="@+id/btnEquals"
