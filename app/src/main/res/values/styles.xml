@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/statusBar</item>
+        <item name="colorPrimaryDark">@color/statusBar</item>
+        <item name="colorAccent">@color/statusBar</item>
+    </style>
+
+
+    <style name="calcAction">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/calcActBtn</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <!--        <item name="android:layout_margin">0.5dp</item>-->
+    </style>
+
+    <style name="calcNumber">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/calcNumbBtn</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <!--        <item name="android:layout_margin">0.5dp</item>-->
+    </style>
+
+</resources>
