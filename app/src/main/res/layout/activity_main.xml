@@ -30,7 +30,7 @@
             <Button
                 android:id="@+id/btnClear"
                 style="@style/calcNumber"
-                android:text="CE" />
+                android:text="C" />
 
             <Button
                 android:id="@+id/btnInverse"
